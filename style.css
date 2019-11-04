@@ -1,87 +1,75 @@
 .grid-container {
-  display: inline-grid;
-
-  background-color: #FFFFFF;
-  padding: 100px;
-  justify-items: center;
+	display: inline-grid;
+	background-color: #FFFFFF;
+	padding: 100px;
+	justify-items: center;
 }
 
 @media only screen and (max-width: 850px) {
-
 	.grid-container {
-	grid-template-areas:
-	 'title'
-	 'date'
-	 'social'
-	 'article';
+		grid-template-areas: 'title' 'date' 'social' 'article';
 	}
-	
 }
 
 @media only screen and (min-width: 851px) {
 	.grid-container {
-	grid-template-areas:
-	'title article social'
-	'date article .';
+		grid-template-areas: 'title article social' 'date article .';
 	}
-	
 }
 
-
-
 .title {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 80px;
-  text-align: center;
-  max-width: 400px;
-  max-height: 100px;
-  grid-area: title;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 80px;
+	text-align: center;
+	max-width: 400px;
+	max-height: 100px;
+	grid-area: title;
 }
 
 .social {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  max-height: 150px;
-  text-align: center;
-  grid-area: social;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	max-height: 150px;
+	text-align: center;
+	grid-area: social;
 }
 
 .article {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-  max-width: 800px;
-  grid-area: article;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	max-width: 800px;
+	grid-area: article;
 }
 
 .date {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  max-height: 100px;
-  grid-area: date;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	max-height: 100px;
+	grid-area: date;
 }
 
 .fa-facebook {
-  background: #FFFFFF;
-  color: black;
-  padding: 10px;
+	background: #FFFFFF;
+	color: black;
+	padding: 10px;
 }
 
 .fa-twitter {
-  background: #FFFFFF;
-  color: black;
-  padding: 10px;
+	background: #FFFFFF;
+	color: black;
+	padding: 10px;
 }
 
 .fa-instagram {
-  background: #FFFFFF;
-  color: black;
-  padding: 10px;
+	background: #FFFFFF;
+	color: black;
+	padding: 10px;
 }
 
 .footer {
@@ -92,14 +80,13 @@
 	color: white;
 	text-align: center;
 	background-color: black;
-	
 }
 
 .imagePlaceHolder {
-    display:block;
-    height:300px;
-    width:400px;
-    padding: 100px;
-    background:#eee;
-    text-align: center;
+	display: block;
+	height: 300px;
+	width: 400px;
+	padding: 100px;
+	background: #eee;
+	text-align: center;
 }
